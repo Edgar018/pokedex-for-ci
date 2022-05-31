@@ -12,3 +12,8 @@ jobs:
    - name: Echo the message
      run : |
       echo "Hello Edgar"
+   - name: Say date
+     run: |
+      date
+   - run: | 
+      ls -l
